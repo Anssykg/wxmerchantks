@@ -1,0 +1,19 @@
+{
+    "name": "wxmerchantks/wxmerchantks",
+    "description": "ji aes ks",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ykg",
+            "email": "1099815904@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "WxMerChantKs\\": "src"
+        }
+    }
+}
