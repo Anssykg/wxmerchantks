@@ -8,11 +8,11 @@
 
 require_once "vendor/autoload.php";
 
-class TestClass{
-    public function index(){
-        $obj = new WxMerChantKs\Test();
-        var_dump($obj->index());
-    }
+class TestClass {
+	public function index() {
+		$obj = new WxMerChantKs\Test();
+		var_dump($obj->index());
+	}
 }
 
 (new TestClass())->index();
