@@ -23,6 +23,7 @@ class Aes
     {
         $this->privateKey = $key;
         $this->ivKey = $iv;
+        return $this;
     }
 
     /**
@@ -33,7 +34,7 @@ class Aes
      */
     public function aes_cbc_encrypt($data)
     {
-        $encrypted = openssl_encrypt($data, $this->type, $this->privateKey, OPENSSL_RAW_DATA, $this->ivKey);
+        $encrypted = openssl_encrypt($data, $this->menthod, $this->privateKey, OPENSSL_RAW_DATA, $this->ivKey);
         return base64_encode($encrypted);
     }
 

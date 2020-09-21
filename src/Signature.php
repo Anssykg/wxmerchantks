@@ -19,6 +19,7 @@ class Signature
     public function set($key)
     {
         $this->key = $key;
+        return $this;
     }
 
     /**
