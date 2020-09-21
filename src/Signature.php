@@ -27,7 +27,7 @@ class Signature
      * @param $key 对比密钥
      * @return string [description]
      */
-    public function signVerif($data)
+    public function createSign($data)
     {
         $buff = array();
         foreach ($data as $k => $v) {
